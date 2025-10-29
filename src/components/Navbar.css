@@ -1,0 +1,61 @@
+/* Navbar.css */
+
+.navbar {
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+  background-color: #000; /* ✅ Black background */
+  padding: 15px 50px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.navbar-logo {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #dfca10; /* White text for logo */
+  cursor: pointer;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  margin: 0;
+  margin-left: auto;
+  margin-top: 10px;
+}
+
+.navbar-links li a {
+  text-decoration: none;
+  color: #fff; /* White text for links */
+  font-weight: 500;
+  transition: color 0.3s ease;
+  font-size: 20px;
+}
+
+.quote-btn {
+  background-color: #000; /* Black background */
+  color: #dfca10;         /* Golden-yellow text */
+  border: 2px solid #dfca10; /* Border same as font color */
+  border-radius: 25px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: 900;
+  transition: all 0.3s ease;
+  height: 50px;
+  width: 200px;
+  font-size: medium;
+  margin-left: 20px;
+}
+
+/* Hover effect */
+.quote-btn:hover {
+  background-color: #dfca10; /* Fill with gold */
+  color: #000;               /* Invert text color on hover */
+  border-color: #dfca10;     /* Keep same border */
+}
+
+

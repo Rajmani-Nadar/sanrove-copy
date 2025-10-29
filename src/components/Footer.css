@@ -1,0 +1,119 @@
+footer {
+  background-color: #000;
+  color: #fff;
+  padding: 60px 40px 30px;
+  margin-top: 100px;
+}
+
+.footer-content span {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #dfca10;
+}
+
+.footer-content span p {
+  font-size: 1.7rem;
+  color: #dfca10;
+  font-weight: 600;
+}
+
+/* GRID SETUP: now 4 columns */
+.footer-content {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  text-align: left;
+  justify-items: start;
+  margin-bottom: 40px;
+}
+
+/* HEADINGS */
+.footer-content h2 {
+  color: #fff;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  font-weight: 420;
+}
+
+.footer-content h3 {
+  color: #dfca10;
+  font-size: 1.3rem;
+  margin-bottom: 15px;
+}
+
+/* LIST ITEMS */
+.footer-content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-content li {
+  color: #ddd;
+  margin-bottom: 8px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+  font-size: large;
+}
+
+.footer-content li:hover {
+  color: #dfca10;
+}
+
+/* CONTACT TEXT */
+.footer-content p {
+  color: #ccc;
+  margin-bottom: 8px;
+  font-size: 0.95rem;
+  line-height: 0.9;
+}
+
+/* SOCIAL ICONS */
+.footer-social {
+  display: flex;
+  gap: 12px;
+  margin-top: 15px;
+}
+
+.footer-social a {
+  color: #fff;
+  padding: 9px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+}
+
+/* COPYRIGHT */
+.footer-bottom {
+  /* border-top: 1px solid rgba(255, 255, 255, 0.1); */
+  padding-top: 20px;
+  font-size: 1rem;
+  text-align: center;
+  color: #fff;
+}
+
+.footer-email {
+  color: #dfca10 !important;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+/* RESPONSIVE */
+@media (max-width: 1000px) {
+  .footer-content {
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+  }
+}
+
+@media (max-width: 700px) {
+  .footer-content {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .footer-social {
+    justify-content: center;
+  }
+}

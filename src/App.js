@@ -1,23 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Navbar from "./components/Navbar";
+import Offer from "./components/Offer";
+import Products from "./components/Products";
+import WhyUs from "./components/WhyUs";
+import Footer from "./components/Footer";
+import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Navbar />
+      <div style={{ padding: "50px"}}>
+        <h1>Technology partner,<br />
+         you can rely on!</h1>
+        <p>Sanrove Technologies offers end-to-end technology services for your business needs.</p>
+        <button className="req-btn">CONTACT NOW</button>
+      </div>
+      <Offer />
+      <Products />
+      <WhyUs />
+      <Footer />
     </div>
   );
 }
