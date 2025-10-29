@@ -1,0 +1,16 @@
+.about-section h1 {
+  color: #dfca10;
+  font-size: 40px;
+  margin-bottom: 20px;
+  text-align: center;
+  margin-top: 90px;
+}
+
+.about-section p {
+  color: #fff;
+  font-size: 20px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  text-align: left;
+  padding: 0 280px;
+}

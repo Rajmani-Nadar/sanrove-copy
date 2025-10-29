@@ -32,3 +32,12 @@ p {
 body {
   background-color: black;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Ensure content is not hidden behind fixed navbar */
+body {
+  padding-top: 80px; /* adjust to your navbar height */
+}

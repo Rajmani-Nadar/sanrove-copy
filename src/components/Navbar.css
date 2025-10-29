@@ -58,4 +58,20 @@
   border-color: #dfca10;     /* Keep same border */
 }
 
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
 
+/* Optional: highlight active route */
+.navbar-links a.active {
+  color: #dfca10;
+  font-weight: 700;
+}
+
+/* Navbar.css */
+.navbar { position: fixed; top: 0; left: 0; right: 0; z-index: 1000; }
+.navbar-links a.active { color: #dfca10; font-weight: 700; }
